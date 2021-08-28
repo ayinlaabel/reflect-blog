@@ -1,0 +1,70 @@
+@import '../../styles.scss';
+
+.banner {
+    position: relative;
+    background: linear-gradient(120deg, rgba(0, 0, 0, .9), rgba(0, 0, 0, .7)), $bg-home-banner;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30rem;
+
+    &-title {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+        .h1-title{
+            font-size: 4rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            color: #fff;
+            text-align: center;
+        }
+
+        .p-title {
+            font-size: 1.5rem;
+            text-align: center;
+            color: #fff;
+        }
+    }
+}
+
+.container {
+    margin: 1rem 6rem;
+}
+
+.post {
+
+    &-header {
+        margin-bottom: 1rem;
+        .post-title {
+            font-size: 2rem;
+            font-weight: 500;
+            margin-bottom: 1rem;
+        }
+
+        .icons {
+            font-size: .8rem;
+            color: #444;
+
+            .time-icon {
+                margin-left: 1rem;
+            }
+        }
+    }
+    
+    &-body {
+        font-size: 1rem;
+        line-height: 1.5;
+        margin-bottom: 1rem;
+    }
+
+    &-footer {
+        font-size: 1rem;
+        color: #444;
+
+        .comment-icon {
+            margin-left: 1rem;
+        }
+    }
+}

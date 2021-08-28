@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+$bg-home-banner: url(/assets/images/blog.jpg);
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    font-family: 'Roboto', 'Lato', 'Raleway', 'Open Sans', sans-serif;
+}

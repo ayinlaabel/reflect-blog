@@ -1,0 +1,17 @@
+<div class="menu-btn" [ngClass]="showMenu == true?'close':''" (click)="toggleMenu()">
+    <div class="btn-line"></div>
+    <div class="btn-line"></div>
+    <div class="btn-line"></div>
+</div>
+<div class="menu" [ngClass]="showMenu == true?'show':''">
+    <div class="nav-menu" [ngClass]="showMenu == true?'show':''"></div>
+    <div class="empty" [ngClass]="showMenu == true?'show':''"></div>
+</div>
+<ul class="menu-nav" [ngClass]="showMenu == true?'show':''">
+    <li class="nav-item" [ngClass]="showMenu == true?'show':''">
+        <a href="#@!" class="nav-link">Home</a>
+    </li>
+    <li class="nav-item" [ngClass]="showMenu == true?'show':''">
+        <a href="#@!" class="nav-link">Contact</a>
+    </li>
+</ul>
